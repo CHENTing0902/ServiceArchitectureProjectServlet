@@ -19,5 +19,24 @@
     <servlet-name>LightServlet</servlet-name>
     <url-pattern>/LightServlet</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <description></description>
+    <display-name>WindowServlet</display-name>
+    <servlet-name>WindowServlet</servlet-name>
+    <servlet-class>fr.insa.soa.servlet.WindowServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WindowServlet</servlet-name>
+    <url-pattern>/WindowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BlindServlet</display-name>
+    <servlet-name>BlindServlet</servlet-name>
+    <servlet-class>fr.insa.soa.servlet.BlindServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BlindServlet</servlet-name>
+    <url-pattern>/BlindServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
